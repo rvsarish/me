@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"); /* Importing the 'Poppins' font from Google Fonts */
+
+/* Resetting margin and padding for all elements and setting default box-sizing and font-family */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif; /* Default font-family for all elements */
+}
+
+html {
+  scroll-behavior: smooth; /* Enables smooth scrolling for anchor links */
+}
+
+body {
+  margin: 0px !important; /* Ensures no margin for the body */
+  padding: 0; /* Resets padding for the body */
+  font-family: "Montserrat", sans-serif; /* Overrides global font-family to 'Montserrat' for body */
+}
+
+/* Styling for the scrollbar */
+
+/* Width of the scrollbar */
+::-webkit-scrollbar {
+  width: 4px; /* Narrow scrollbar width */
+  height: 80px; /* Scrollbar height for horizontal scrolling */
+}
+
+/* Track of the scrollbar */
+::-webkit-scrollbar-track {
+  background: #222a35; /* Dark background for the scrollbar track */
+}
+
+/* Scrollbar handle */
+::-webkit-scrollbar-thumb {
+  background: #575c66; /* Handle color for the scrollbar */
+  border-radius: 6px; /* Rounded corners for the handle */
+}
+
+/* Handle color on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #626970; /* Slightly lighter color when hovered */
+}
